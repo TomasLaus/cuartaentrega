@@ -23,6 +23,12 @@ $wImagen: 45vw;
     object-fit:cover;
 }
 
+@mixin letrasCarousel{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    color: hsl(122, 100%, 100%);
+}
+
 /* SECCION BODY Y HEADER*/
 body {
     margin: 0;
@@ -54,6 +60,7 @@ body {
     
     }
     
+    // INDEX
     #carouselUno{
         @include carousel();
     }
@@ -61,8 +68,35 @@ body {
     #carouselDos{
         @include carousel();
     }
+    
+    #carousel__tittleUno{
+        @include letrasCarousel();
+    }
+
+    #carousel__tittleDos{
+        @include letrasCarousel();
+    }
+
+    #carousel__pUno{
+        @include letrasCarousel();
+    }
+
+    #carousel__pDos{
+        @include letrasCarousel();
+    }
   
-  
+
+    // Especialidades
+    .titulo__sectionEspecialidades{
+        text-align: center;
+    }
+
+    .subti__sectionEspecialidades{
+        text-align: center;
+    }
+
+
+    // Contacto
     .main__conctacto {
     
         .tituloCont{
@@ -85,8 +119,9 @@ body {
         }
 
         .sectionContacto {
-            background-color: #131313;
+            background-color: rgba(0, 0, 0, 0.5);
             padding-bottom: 50px;
+            border-radius: 15px;
         }
         
     }
