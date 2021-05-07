@@ -85,22 +85,27 @@ body {
         @include letrasCarousel();
     }
   
+    .card__tittleIndex{
+        font-weight: bold;
+        font-size: 4vh;
+    }
 
     // Especialidades
     .titulo__sectionEspecialidades{
         text-align: center;
+        font-weight: bold;
     }
 
     .subti__sectionEspecialidades{
         text-align: center;
     }
 
-
     // Contacto
     .main__conctacto {
     
         .tituloCont{
-            color: $colorFuente
+            color: $colorFuente;
+            font-weight: bold;
         }
         
         form{

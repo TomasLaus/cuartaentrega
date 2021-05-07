@@ -60,12 +60,17 @@ body {
     color: white;
     font-weight: 500;
     color: white; }
+  body .card__tittleIndex {
+    font-weight: bold;
+    font-size: 4vh; }
   body .titulo__sectionEspecialidades {
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   body .subti__sectionEspecialidades {
     text-align: center; }
   body .main__conctacto .tituloCont {
-    color: #708090; }
+    color: #708090;
+    font-weight: bold; }
   body .main__conctacto form {
     text-align: center;
     color: #708090; }
